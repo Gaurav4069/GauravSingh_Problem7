@@ -6,7 +6,7 @@ const Step2Normalization = ({ onComplete, onContinue, onBack, data, previousData
   const [error, setError] = useState('');
   const [normalizationDone, setNormalizationDone] = useState(false);
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://aimedicalbackend.onrender.com";
 
 
   const handleNormalize = async () => {
