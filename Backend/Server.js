@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 
-app.use('/api', require('./routes/api'));
+app.use('/api', require('./Routes/api'));
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
