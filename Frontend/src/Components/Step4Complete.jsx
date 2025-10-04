@@ -9,7 +9,7 @@ const Step4Complete = ({ onBack, data, previousData, onReset }) => {
   const [result, setResult] = useState(data);
   const [activeTab, setActiveTab] = useState('text');
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://aimedicalbackend.onrender.com";
 
 
   const handleCompleteProcess = async () => {
