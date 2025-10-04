@@ -7,8 +7,9 @@ const PORT = 5000;
 app.use(express.json({ limit: '50mb' })); 
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(cors({
-  origin: 'https://gauravsingh-problem7-1.onrender.com', 
-  credentials: true
+  origin: "https://gauravsingh-problem7-1.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 
