@@ -14,12 +14,8 @@ npm install
 npm run dev
 
 ### Architecture
-[ Client / Frontend ]
-       ↓
- HTTP / REST / JSON
-        ↓
-[ Backend / Server (Node/Express) ]
-
+[ Client / Frontend ] ->  HTTP / REST / JSON ->[ Backend / Server (Node/Express) ]
+       
 
 ### Api usage Example
 1) POST -> http://localhost:5000/api/extract-text
