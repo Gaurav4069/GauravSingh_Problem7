@@ -9,7 +9,7 @@ const Step1Extraction = ({ onComplete, onContinue, data }) => {
   const [activeTab, setActiveTab] = useState('text');
   const [extractionDone, setExtractionDone] = useState(false);
 
-const API_BASE = "https://aimedicalbackend.onrender.com";
+const API_BASE = "https://aimedicalbackend.onrender.com/api";
 
 
    const compressImage = (file, maxWidth = 800, quality = 0.7) => {
