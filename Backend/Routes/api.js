@@ -5,7 +5,7 @@ const {
   normalizeTests, 
   generateSummary,
   processComplete 
-} = require('../controllers/medicalController');
+} = require('../Controllers/medicalController');
 
 // Individual APIs
 router.post('/extract-text', extractText);
