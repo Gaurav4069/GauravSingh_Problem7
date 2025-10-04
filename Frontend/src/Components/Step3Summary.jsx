@@ -5,7 +5,7 @@ const Step3Summary = ({ onComplete, onContinue, onBack, data, previousData }) =>
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [summaryGenerated, setSummaryGenerated] = useState(false);
-const API_BASE = "https://aimedicalbackend.onrender.com";
+const API_BASE = "https://aimedicalbackend.onrender.com/api";
 
 
   const handleGenerateSummary = async () => {
